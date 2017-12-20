@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="zg_wrapper">
+    <header>
+        <div class="head">
+            <a href="#"><img src="images/logo.jpg" alt=""></a>
+            <p class="head_r">
+                <a onclick="if (window._tag){_tag.dcsMultiTrack('wt.mtel','phone');}" href="tel:400-6300-999" class="off_xfa1 fl" rel="nofollow"><img src="images/h_phone.jpg" alt=""><span>400-6300-999</span></a>
+            </p>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="banner_in">
+            <h1 class="title">中公·电网官方微信</h1>
+            <div class="wow zoomIn"><img src="images/banner_t.png" alt="" class="banner_t"></div>
+            <div class="wow bounceInUp">
+                <img src="images/banner_te.png" alt="" class="banner_te">
+                <img src="images/banner_p.png" alt="" class="banner_p">
+            </div>
+        </div>
+    </div>
+    <div class="content1">
+        <div class="content1_in">
+            <h2>考试汇总是什么</h2>
+            <div class="codeT">
+                <p class="yellow"><span>扫码<br>立即<br>关注<br><<</span></p>
+                <img src="images/code.png" alt="" class="code">
+            </div>
+            <img src="images/phone1.png" alt="" class="phone1">
+            <img src="images/phone2.png" alt="" class="phone2">
+            <div class="text1">
+                <h2>包揽电网招考信息</h2>
+                <p>国家电网、南方电网等各<br>电力企业的招聘时间、报<br>名时间、考试大纲及早获<br>知，抢先做好备考准备</p>
+            </div>
+            <div class="text2">
+                <h2>专业的备考指导</h2>
+                <p>国家电网、南方电网等各<br>电力企业的招聘时间、报<br>名时间、考试大纲及早获<br>知，抢先做好备考准备</p>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $(window).scroll(function(){
+               if($(window).scrollTop()>100){
+                   $('.codeT').fadeIn(100);
+               }else{
+                   $('.codeT').fadeOut(100);
+               }
+            })
+            var tag = false;
+            $('.codeT').click(function(){
+                if(tag == false){
+                    $('.codeT').animate({'right':0});
+                    tag = true;
+                }else{
+                    $('.codeT').animate({'right':'-1.6rem'});
+                    tag = false;
+                }
+
+            })
+        })
+    </script>
+    <div class="content2">
+        <div class="title_bg"><h2>也许你还有许多问题</h2></div>
+        <div class="content2_te clear">
+            <p class="wow fadeInUp">不知道电力企业招聘公告什么时候发布?<span></span></p>
+            <p class="wow fadeInUp">电力企业的福利待遇都很好吗?<span></span></p>
+            <p class="wow fadeInUp">电网笔试很难吗?<span></span></p>
+            <p class="wow fadeInUp">想要进电网工作又担心未来发展受限制?<span></span></p>
+            <p class="wow fadeInUp">报考电力类国企有严格的专业限制吗?<span></span></p>
+            <p class="wow fadeInUp">有微信推送，但是自己自觉性不高怎么办?<span></span></p>
+        </div>
+        <div class="jian">
+            <img src="images/jian.png" alt="">
+        </div>
+        <div class="concern">
+            <p>关注“<span>zgdwzp</span>” 解决问题 <span>so easy</span></p>
+        </div>
+        <!--方法1-->
+        <div class="method1">
+            <p>方法一：手动搜索关注</p>
+            <ul class="m1_t1">
+                <li class="wow fadeInUp">打开微信，点击通讯录“<span>公众号</span>”，点左上角“<span>+</span>”</li>
+                <li class="wow fadeInUp"></li>
+                <li class="wow fadeInUp">输入“<span>电网招聘考试汇总</span>”或“<span>zgdwzp</span>”</li>
+                <li class="wow fadeInUp"></li>
+                <li class="wow fadeInUp">点击进入公众号介绍页点击下方“<span>关注</span>”</li>
+            </ul>
+        </div>
+        <!--方法2-->
+        <div class="method2">
+            <p>方法er：手动搜索关注</p>
+            <ul class="m1_t2">
+                <li class="wow fadeInUp">打开微信，点击左上角“<span>+</span>”，点开“<span>扫一扫</span>”</li>
+                <li class="wow fadeInUp"></li>
+                <li id="code2" class="wow fadeInUp"><img src="images/code2.jpg" alt=""></li>
+                <li class="wow fadeInUp"></li>
+                <li class="wow fadeInUp">点击进入公众号介绍页点击下方“<span>关注</span>”</li>
+                <li id="sixth" class="wow fadeInUp"></li>
+                <li class="wow fadeInUp">记得不要取消关注~我们陪你一起备考，还有<span>礼物</span>送哦</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content3">
+        <div class="title_bg3"><h2>更多精彩内容</h2></div>
+        <div class="shape1">
+            <a href="javascript:;">网站区</a>
+            <a href="javascript:;">国家<br>电网</a>
+            <a href="javascript:;">南方<br>电网</a>
+            <a href="javascript:;">电力<br>企业</a>
+        </div>
+        <div class="shape2">
+            <a href="javascript:;">学习区</a>
+            <a href="javascript:;">电网<br>书籍</a>
+            <a href="javascript:;">活动<br>专栏</a>
+            <a href="javascript:;">Q群平<br>台学习</a>
+        </div>
+    </div>
+    <div class="content4">
+        <div class="content4_top">
+            <ul class="content4_t">
+                <li>回</li>
+                <li>复</li>
+                <li>关</li>
+                <li>键</li>
+                <li>词</li>
+            </ul>
+            <p>大家想了解更多电网招聘信息，可回复以下关键词，预知<br>更多信息，备考抢先一步！</p>
+        </div>
+        <div class="content4_bottom">
+            <ul class="dot_kuang">
+                <li>回复“讲座”查看电网考试最新讲座安排</li>
+                <li>回复“辅导班”查看电网考试最新讲座安排</li>
+                <li>回复“图书”查看电网考试最新讲座安排</li>
+                <li>回复“讲座”查看电网考试最新讲座安排</li>
+                <li>回复“讲座”查看电网考试最新讲座安排</li>
+                <li>回复“讲座”查看电网考试最新讲座安排</li>
+                <li>回复“讲座”查看电网考试最新讲座安排</li>
+            </ul>
+            <div class="bottom_nav1">
+                <a href="javascript:;">讲座</a>
+                <a href="javascript:;">辅导班</a>
+                <a href="javascript:;">图书</a>
+                <a href="javascript:;">讲座</a>
+                <a href="javascript:;">讲座</a>
+                <a href="javascript:;">讲座</a>
+                <a href="javascript:;">讲座</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        $('.bottom_nav1').children('a').click(function(){
+            $('.bottom_nav1').children('a').css("background","#34c4fa");
+            $(this).css("background","#f86673");
+            $('.dot_kuang').children('li').hide();
+            $('.dot_kuang').children('li').eq($(this).index()).show();
+        })
+    })
+</script>
+<!--幕后人员：【制作：卢营】【2017-12-19】-->
+</body>
+</html>
